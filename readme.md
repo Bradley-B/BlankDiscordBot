@@ -1,1 +1,0 @@
-Don't worry, I fly the ship. Just follow my instructions and we'll all be okay.
