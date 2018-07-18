@@ -21,10 +21,10 @@ public class MainRunner {
         // Only login after all events are registered otherwise some may be missed.
         cli.login();
 
-        try {Thread.sleep(5000);} catch (InterruptedException e) {}
-        IGuild guild = cli.getGuilds().get(0);
-        IChannel channel = guild.getChannelByID(406305824143835157L);
-        channel.sendMessage("Autopilot online. Don't worry, I fly the ship. Just follow my instructions and we'll all be okay.");
+        //try {Thread.sleep(5000);} catch (InterruptedException e) {}
+        //IGuild guild = cli.getGuilds().get(0);
+        //IChannel channel = guild.getChannelByID(406305824143835157L);
+        //channel.sendMessage("online");
     }
 
 }
